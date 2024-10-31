@@ -15,3 +15,6 @@ Please find project deliverables in the following locations:
     - Reflections on each visualization are in that document and in the `code/combining_distance_and_aqi.ipynb` file
 
 To review the analysis, please start with `code/fire_distances.ipynb`. That notebook guides users through the remaining workflow.
+
+## Additional Folders
+Throughout the notebooks you will find `raw_data` and `intermediate_data` folders referenced. Due to GitHub file size limits the contents of those folders are not included in this repository. If someone were to clone this repository and run the notebooks starting with `code/fire_distances.ipynb`, those folders would be populated locally.
