@@ -10,9 +10,8 @@ Analyses in this repository use data from:
 
 ## Finding Deliverables:
 Please find project deliverables in the following locations:
-- Collaboration reflection at the top level of this repo
-- Visualizations PDF in the `output` folder
-    - Reflections on each visualization are in that document and in the `code/combining_distance_and_aqi.ipynb` file
+- Visualizations & collaboration reflection at TOP LEVEL OF THIS REPO
+- Supprting analysis in the `code/combining_distance_and_aqi.ipynb` file
 
 To review the analysis, please start with `code/fire_distances.ipynb`. That notebook guides users through the remaining workflow.
 
