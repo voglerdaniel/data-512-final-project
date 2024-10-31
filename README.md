@@ -1,4 +1,4 @@
-# Smoke and Mirrors: Wilfire Impact Estimate in Pueblo, CO
+# Wilfire Impact Estimate in Pueblo, CO
 
 In this analysis, I develop an estimate of smoke intensity from wildfires in Pueblo, CO. I then assess how the smoke intensity score I hypothesize compares to the the Air Quality Index (AQI), a metric commonly used by the US Environmental Protection Agency. 
 
