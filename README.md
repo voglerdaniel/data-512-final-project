@@ -10,10 +10,16 @@ Analyses in this repository use data from:
 
 ## Finding Deliverables:
 Please find project deliverables in the following locations:
-- Visualizations & collaboration reflection at TOP LEVEL OF THIS REPO
-- Supprting analysis in the `code/combining_distance_and_aqi.ipynb` file
+- Key figures are in the `output` folder, located [here](./output/)
+- Discussion on the primary insights from the figures are in the `visualizations_and_reflections.pdf` report [here](./visualizations_and_reflections.pdf)
+- Reflections on the collaborative efforts that produced the analysis behind these figures is in the `collaborative_reflection_statement.docx` [here](./collaborative_reflection_statement.docx)
 
-To review the analysis, please start with `code/fire_distances.ipynb`. That notebook guides users through the remaining workflow.
+Notebooks documenting the analysis that led to the above outputs is contained in the `code` folder [here](./code/). The analysis is divided into four different notebooks, one for each major stage of work:
+- **Notebook 1:** [Calculating Fire Distances](./code/fire_distances.ipynb) calculates the distance between in-scope wildfires and Pueblo, CO 
+- **Notebook 2:** [Getting AQI Data](./code/getting_aqi.data.ipynb) gathers the constituent parts of air quality index (AQI) and uses them to calculate the index
+- **Notebook 3:** [Combining Distance and AQI](./code/combining_distance_and_aqi.ipynb) computes the smoke intensity estimate (SIE) metric using the distances from Notebook 1, then analyzes its association with the AQI index.
+- **Notebook 4:** [Public Health Extension](./code/public_health_extension.ipynb) explores variables quantifying public health outcomes provided by the Colorado Dept. of Public Health & Environment; analyzes and visualizes their association with the SIE.
+-
 
 ## Additional Folders
-Throughout the notebooks you will find `raw_data` and `intermediate_data` folders referenced. Due to GitHub file size limits the contents of those folders are not included in this repository. If someone were to clone this repository and run the notebooks starting with `code/fire_distances.ipynb`, those folders would be populated locally.
+Throughout the notebooks you will find `raw_data` and `intermediate_data` folders referenced. Due to GitHub file size limits the contents of those folders are not included in this repository. Please clone this repository and run the notebooks starting with `code/fire_distances.ipynb` to populate these folders locally.
