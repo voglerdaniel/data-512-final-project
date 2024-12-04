@@ -19,7 +19,8 @@ Notebooks documenting the analysis that led to the above outputs is contained in
 - **Notebook 2:** [Getting AQI Data](./code/getting_aqi.data.ipynb) gathers the constituent parts of air quality index (AQI) and uses them to calculate the index
 - **Notebook 3:** [Combining Distance and AQI](./code/combining_distance_and_aqi.ipynb) computes the smoke intensity estimate (SIE) metric using the distances from Notebook 1, then analyzes its association with the AQI index.
 - **Notebook 4:** [Public Health Extension](./code/public_health_extension.ipynb) explores variables quantifying public health outcomes provided by the Colorado Dept. of Public Health & Environment; analyzes and visualizes their association with the SIE.
--
 
 ## Additional Folders
 Throughout the notebooks you will find `raw_data` and `intermediate_data` folders referenced. Due to GitHub file size limits the contents of those folders are not included in this repository. Please clone this repository and run the notebooks starting with `code/fire_distances.ipynb` to populate these folders locally.
+
+**EXCEPTION**: the `raw_data` folder contains [a subfolder](./raw_data/colorado_epht_data/) with the original data provided by the Colorado Department of Public Health and Environment. Colorado does not make this data available via an API, so it is included in this repository in its original format.
