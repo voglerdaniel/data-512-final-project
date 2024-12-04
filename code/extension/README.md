@@ -1,0 +1,1 @@
+The notebooks in this folder are NOT formal documentation of analysis. They are informal "scratch work" records of the basic exploration I did when exploring additional data sources during my extension plan.
