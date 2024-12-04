@@ -1,0 +1,1 @@
+This folder stores the outputs of [the notebook](../code/combining_distance_and_aqi.ipynb) dedicated to calculating the smoke intensity index and combining this calculated index with the air quality index (AQI).

@@ -23,4 +23,4 @@ Notebooks documenting the analysis that led to the above outputs is contained in
 ## Additional Folders
 Throughout the notebooks you will find `raw_data` and `intermediate_data` folders referenced. Due to GitHub file size limits the contents of those folders are not included in this repository. Please clone this repository and run the notebooks starting with `code/fire_distances.ipynb` to populate these folders locally.
 
-**EXCEPTION**: the `raw_data` folder contains [a subfolder](./raw_data/colorado_epht_data/) with the original data provided by the Colorado Department of Public Health and Environment. Colorado does not make this data available via an API, so it is included in this repository in its original format.
+**EXCEPTION**: the `raw_data` folder contains [a subfolder](./raw_data/colorado_epht_data/) with the original data provided by the Colorado Department of Public Health and Environment. Colorado does not make this data available via an API, so it is included in this repository in its original format. To see how these data are processed, refer to [Notebook 4](./code/public_health_extension.ipynb).
