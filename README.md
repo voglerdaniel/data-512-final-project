@@ -4,9 +4,14 @@ In this analysis, I develop an estimate of smoke intensity from wildfires in Pue
 
 Thereafter, I then use a seasonal autoregressive integrated moving average (SARIMA) time series model to predict the smoke intensity score I develop 25 years into the future.
 
+Finally, I assess whether there is a connection between my estimate of smoke intensity and rates of asthma hospitalizations in Pueblo, CO. Evaluating this connection to public health is an important step in making this project a work of human-centered data science. Gaining insight into any potential link between wildfire smoke and asthma could help the Pueblo City/County governments design effective public health interventions, better serving citizens with asthma when wildfires strike.
+
+## Data:
+
 Analyses in this repository use data from:
 - [Combined wildland fire datasets for the United States and certain territories, 1800s-Present](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81) dataset, provided by the US Geographic Survey. 
 - [EPA Air Quality System (AQS) API](https://aqs.epa.gov/aqsweb/documents/data_api.html)
+- [Colorado Department of Public Health and Environment](https://cdphe.colorado.gov/center-for-health-and-environmental-data)
 
 ## Finding Deliverables:
 Please find project deliverables in the following locations:
